@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --mainWhite: #f5f5f5;
+    --mainDark: #333333;
+    --mainRed: #c92332;
+    --mainGrey: #606063;
+  }
+
+  body {
+    position: relative;
+    background-image: url(/img/dishes2.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+	  background-size: cover;
+    color: var(--mainGrey);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .search-btn{
+      align-content: center;
+  }
+  .logo{
+    margin-top: 10px !important;
+  }
+  .feedback {
+    background-color: var(--mainRed);
+    color: var(--mainWhite);
+    display: none;
+    margin-top: 10px;
+  }
+  .redText {
+    color: var(--mainRed);
+  }
+.card{
+    margin: 5px;
+  }
+  .card p {
+    font-size: 0.7rem;
+  }
+  .showItem {
+    display: block;
+  }

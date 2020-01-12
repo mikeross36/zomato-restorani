@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+      
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="img/zomato_logo2.png" alt="logo" class="logo d-block mx-auto">
+                <div class="feedback text-center text-capitalize">enter city</div>
+
+                <form id="search-form" class="mb-3">
+                    <div class="container">
+                        <div class="form-group my-3">
+                            <select class="form-control text-capitalize" id="search-category">
+            
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group my-3">
+                        <div>
+                            <input type="text" class="form-control text-capitalize" id="search-city" 
+                            placeholder="Search city...">
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <button type="submit" 
+                            class="btn btn-raised btn btn-success btn-lg text-capitalize">
+                            search
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="row" id="restaurant-list">
+            <div class="col-11 mx-auto my-3 col-md-4">
+                  
+                <div class="card border-success mb-1">
+                <div class="card border-success text-success">
+                    <div class="row p-3">
+                        <div class="col-5">
+                          <img src="img/food.jpeg" class="img-fluid img-thumbnail" alt="">
+                        </div>
+                        <div class="col-5 text-capitalize">
+                          <h6 class="text-capitalize pt-2 redText">name</h6>
+                          <p>address</p>
+                        </div>
+                        <div class="col-1">
+                          <div class="badge badge-success">4.9</div>
+                        </div>
+                    </div>
+                      <hr>
+                    <div class="row p-3 ml-1">
+                        <div class="col-5 text-uppercase">
+                          <p>cuisines:</p>
+                          <br>
+                          <p>cost for two:</p>
+                        </div>
+                        <div class="col-5 text-uppercase">
+                          <p>cuisines</p>
+                          <br>
+                          <p>cost</p>
+                        </div>
+                    </div>
+                      <hr>
+                      <div class="row text-center no-gutters pb-3">
+                        <div class="col-6">
+                          <a href="#" target="_blank" class="btn btn-sm btn-outline-danger text-uppercase"><i class="fas fa-book"></i> menu</a>
+                        </div>
+                        <div class="col-6">
+                          <a href="#" target="_blank" class="btn btn-sm btn-outline-danger text-uppercase">website</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
