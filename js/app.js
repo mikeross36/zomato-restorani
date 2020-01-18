@@ -58,7 +58,7 @@ class UI{
     showFeedback(message){
         const feedback = document.querySelector('.feedback');
         feedback.classList.add('showItem');
-        feedback.innerHTML = `<p>${message}</p>`;
+        feedback.innerHTML = `<h4>${message}</h4>`;
         setTimeout(()=> feedback.classList.remove('showItem'), 3000);
     }
     /*showLoader(){
@@ -99,7 +99,7 @@ class UI{
         div.innerHTML = `
         <div class="card border-success mb-1">
               <div class="card border-success text-success">
-                <div class="row p-3">
+                <div class="row p-1">
                   <div class="col-5">
                     <img src="${img}" class="img-fluid img-thumbnail" alt="">
                   </div>
@@ -112,7 +112,7 @@ class UI{
                   </div>
                 </div>
                 <hr>
-                <div class="row p-3 ml-1">
+                <div class="row p-2 ml-1">
                   <div class="col-5 text-uppercase">
                     <p>cuisines:</p>
                     <br>

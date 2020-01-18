@@ -21,12 +21,32 @@
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
   }
+
+  /* .select-category{
+    border: 2px solid #008000 !important;
+  }
+
+  .search-city{
+    border: 2px solid #008000 !important;
+  } */
+
   .search-btn{
       align-content: center;
+      border: 2px solid #008000 !important;
+      margin-top: 10px !important;
+      background: white !important;
   }
+  .search-btn:hover{
+    color: black;
+    background-color: #008000 !important;
+  }
+
   .logo{
     margin-top: 10px !important;
+    border: 2px solid #008000 !important;
+    margin-bottom: 10px;
   }
+
   .feedback {
     background-color: var(--mainRed);
     color: var(--mainWhite);

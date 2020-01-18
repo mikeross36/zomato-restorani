@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Zomato restorani</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,23 +20,22 @@
                 <div class="feedback text-center text-capitalize">enter city</div>
 
                 <form id="search-form" class="mb-3">
-                    <div class="container">
-                        <div class="form-group my-3">
-                            <select class="form-control text-capitalize" id="search-category">
+                    <div class="form-row">
+                        <div class="col select-category mx-3">
+                            <select class="form-control text-capitalize custom-select custom-select-lg" 
+                              id="search-category">
             
                             </select>
                         </div>
-                    </div>
-                    
-                    <div class="form-group my-3">
-                        <div>
-                            <input type="text" class="form-control text-capitalize" id="search-city" 
+                        <div class="col search-city mx-3">
+                          <input type="text" class="form-control form-control-lg text-capitalize" 
+                            id="search-city" 
                             placeholder="Search city...">
-                        </div>
+                      </div>
                     </div>
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-center mt-4">
                         <button type="submit" 
-                            class="btn btn-raised btn btn-success btn-lg text-capitalize">
+                            class="btn btn-raised search-btn btn-outline-success btn-lg text-capitalize">
                             search
                         </button>
                     </div>
