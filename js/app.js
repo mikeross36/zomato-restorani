@@ -97,8 +97,8 @@ class UI{
         const div = document.createElement('div');
         div.classList.add('col-11','mx-auto','my-3','col-md-4');
         div.innerHTML = `
-        <div class="card border-success mb-1">
-              <div class="card border-success text-success">
+        <div class="card mb-1 rounded">
+              <div class="card-body text-dark">
                 <div class="row p-1">
                   <div class="col-5">
                     <img src="${img}" class="img-fluid img-thumbnail" alt="">
@@ -118,7 +118,7 @@ class UI{
                     <br>
                     <p>cost for two:</p>
                   </div>
-                  <div class="col-5 text-uppercase">
+                  <div class="col-6">
                     <p>${cuisines}</p>
                     <br>
                     <p>${cost}</p>

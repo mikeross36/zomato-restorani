@@ -56,11 +56,19 @@
   .redText {
     color: var(--mainRed);
   }
+  
 .card{
     margin: 5px;
+    border: 2px solid #008000 !important;
+    background: linear-gradient(to right, #ffff99 0%, #ffcc66 100%);
+  }
+
+  .card-body{
+    background: #ffd699;
   }
   .card p {
     font-size: 0.7rem;
+    background: #ffd699;
   }
   .showItem {
     display: block;
