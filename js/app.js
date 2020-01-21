@@ -107,8 +107,8 @@ class UI{
                     <h6 class="text-capitalize pt-2 redText">${name}</h6>
                     <p>${address}</p>
                   </div>
-                  <div class="col-1">
-                    <div class="badge badge-success">${aggregate_rating}</div>
+                  <div class="col-3">
+                    <div class="badge badge-success">rating: ${aggregate_rating}</div>
                   </div>
                 </div>
                 <hr>

@@ -32,18 +32,18 @@
 
   .search-btn{
       align-content: center;
-      border: 2px solid #008000 !important;
+      border: 2px solid #999966 !important;
       margin-top: 10px !important;
       background: white !important;
   }
   .search-btn:hover{
     color: black;
-    background-color: #008000 !important;
+    background-color: #c2c2a3 !important;
   }
 
   .logo{
     margin-top: 10px !important;
-    border: 2px solid #008000 !important;
+    border: 2px solid #999966 !important;
     margin-bottom: 10px;
   }
 
@@ -59,16 +59,17 @@
   
 .card{
     margin: 5px;
-    border: 2px solid #008000 !important;
-    background: linear-gradient(to right, #ffff99 0%, #ffcc66 100%);
+    -webkit-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    box-shadow: 0px 21px 46px -15px rgba(0,0,0,1) !important;
   }
 
   .card-body{
-    background: #ffd699;
+    background: #ffff80;
   }
   .card p {
     font-size: 0.7rem;
-    background: #ffd699;
+    background: #ffff80;
   }
   .showItem {
     display: block;
